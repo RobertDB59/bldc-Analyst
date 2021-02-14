@@ -17,35 +17,6 @@ Folllowing hardware is used to perform the analysis:
    - Piezo buzzer 5V for alarms
    - White LED to show motor is TURNING
    - DS1302 RTC module to keep track of time
-   
-    ________________________________________
-   |     |                                  |
-   | VCC | GND  CS   RST  A0  SDA  SCK  LED | PINOUT ST7735
-   |_____|__________________________________|
-
-   Ard     D54     ST7735    ADS1115    ACS724    DS18b20   LED    Piezo   Button    DS1302
-    5V     VCC       VCC       VCC       VCC        VCC
-   GND     GND       GND       GND       GND        GND
-    D2     Output
-    D3                                                                         +
-    D4                                              Data
-    D5                                                       +
-    D6                                                               +
-    D7              SD/CS
-    D8               RST
-    D9              A0/DC
-   D10               CS
-   D11           SDA SD/MOSI
-   D12             SD/MISO
-   D13            SCK SD/SCK
-    A0                                   OUT
-    A1                                                                                CLK
-    A2                                                                                 IO
-    A3                                                                                 CE
-    A4                         SDA
-    A5                         SCL
-    5V               LED
-
 
 ATTENTION!! TODO:
      switch to HALL pulses instead of IR avoidance sensor D54
