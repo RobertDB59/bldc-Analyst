@@ -1,4 +1,4 @@
-# bldcAnalyst
+# bldc Analyst
 Brushless motor analyst for small electrical vehicles
 Analyst to monitor performance of bldc motor and battery pack. As well as to gather 
 performance data to analyze autonomy and range in various situations.
