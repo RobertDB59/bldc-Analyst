@@ -5,9 +5,9 @@ performance data to analyze autonomy and range in various situations.
 This repository is not yet finnished and needs to be ported to an ESP32 as I am running
 out of memory on the Arduino Nano.
 
-I have tried to add as much comments as possible for you to understand what is going on.
+I have tried to add as much comments in the code as possible, for you to understand what is going on.
 
-Folllowing hardware is used to perform the analysis:
+Following hardware is used to perform the analysis:
    - Arduino Nano
    - D54 IR obstruction avoidance sensor, to be replaced with the hall sensor output
    - ST7735 full color SPI display 128 x 160, to be replaced with a 160 x 320 screen
