@@ -45,13 +45,13 @@
  * ATTENTION!! TODO:
  *      switch to HALL pulses instead of IR avoidance sensor D54
  *      swap Arduino Nano for ESP32 board
- *      ditch the DS1302 RTC and get a DS3132, DS1302 has too much drift
+ *      ditch the DS1302 RTC and get a DS3132; a DS1302 has too much drift
  *      incorporate the data logging
- *      set timestamp for data collection
+ *      set timestamps for data collection
  *      add GPS tracking and geo fencing
  *      migrate code to a 2.4" tft screen
  * 
- * 
+ * Current memory usage:
  * Sketch uses     29300 bytes = 95% of program memory
  * Global variables 1686 bytes = 82% of dynamic memory
  * 
